@@ -5,7 +5,7 @@ from flask import Flask, render_template, request,url_for, redirect
 #Objeto para inicilizar la aplicacion
 #1. nombre por defecto
 #2. ruta donde esta los templates o nombre de la carpeta
-app = Flask(__name__, template_folder='KARENCUEVA')
+app = Flask(__name__, template_folder='ProyectoFinal')
 
 #Clave secreta de la aplicacion
 
