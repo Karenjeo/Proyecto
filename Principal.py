@@ -53,7 +53,7 @@ def registro():
         with open('pacientes.json') as file:
             json.dump(registro, file)
         
-        return redirect(url_for('/login.html'))
+        return redirect(url_for('login'))
     else:
       return render_template('signup.html')
 
