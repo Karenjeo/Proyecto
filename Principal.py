@@ -1,12 +1,9 @@
 #Importar la biblioteca de flask
 from flask import Flask, render_template, request
-
-
-#Objeto para inicilizar la aplicacion
-#1. nombre por defecto
-#2. ruta donde esta los templates o nombre de la carpeta
+#ruta donde esta los templates o nombre de la carpeta
 app=Flask(__name__, template_folder='template')
-
+#Objeto para inicilizar la aplicacion
+#nombre por defecto
 #Controlador de la ruta por defecto
 @app.route('/')
 def login():
